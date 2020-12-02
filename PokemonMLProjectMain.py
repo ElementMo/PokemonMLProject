@@ -27,7 +27,7 @@ if __name__ == "__main__":
     label_test = label_test_df.to_numpy()
 
     def get_classname(label_number):
-        return class_names[label_number-1]
+        return class_names[label_number]
 
     def show_images(img_data, img_label):
         plt.figure(figsize=(10, 10))
@@ -37,7 +37,6 @@ if __name__ == "__main__":
             plt.title(get_classname(img_label[i]))
             plt.axis("off")
         plt.show()
-        plt.clf()
 
     show_images(data_train, label_train)
     show_images(data_test, label_test)
