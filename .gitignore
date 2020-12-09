@@ -1,5 +1,12 @@
 # self defined
+<<<<<<< Updated upstream
 PokemonData/
+=======
+.vscode/
+PokemonData/
+checkpoints/
+logs/
+>>>>>>> Stashed changes
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
